@@ -1,5 +1,11 @@
 Some hopefully useful tools and tips for efficient use of the pipeline:
 
+Avoid spaces in filenames at all costs!
+
+Always use tab-complete: start typing, e.g., your filename, and after a few letters hit the 'tab' key. If there is only one file (or directory) in the path begining with those letters, it will be filled in automatically. If there are multiple, they will be printed and you can choose the correct one.
+
+You can re-run a previous command by using the up arrow (or !! on GitBash) or ctrl-p to scroll through previous commands.
+
 You will get a syntax error if there are smart quotes or m dashes (like Word produces automatically) rather than straight, unformatted quotes or n dashes. You may have to edit by hand if you are copying and pasting from a Word document. It will save a lot of headaches to turn off auto-correct for these components.
 
 ctrl u saves what you’ve typed; ctrl y pastes it
