@@ -115,7 +115,7 @@ Let's change locations into our home directory:
 cd ~
 ```
 
-Now, upload the file to your home directory on LONI using **S**ecure **C**o**P**y (scp).
+Now, upload the file to your working directory on LONI using **S**ecure **C**o**P**y (scp).
 
 ```
 scp README.txt username@qbc.loni.org:/work/username/
