@@ -132,7 +132,7 @@ This command will prompt you for your password, which you can type or paste at t
 
 Now, your file is waiting for you on the cluster, so let's log in:
 ```
-ssh -X username@qbc.loni.org
+ssh -X username@qbd.loni.org
 ```
 and provide your password at the prompt, as before.
 
@@ -152,7 +152,7 @@ Now, check whether the file you just uploaded is indeed in your directory by lis
 ```
 ls -lh
 ```
-If you include the ```l``` flag, it will print in **l**ong format, i.e., information about each file like the time of modification, file size, and permissions. The ```h``` flag makes the numbers **h**uman-readable, which is useful when we are working with genome-scale files. I also usually use ```tr``` to print the files in **r**everse order according to the **t**ime they were last modified, with most recent files at the bottom.
+If you include the ```l``` flag, it will print in **l**ong format, i.e., information about each file like the time of modification, file size, and permissions. The ```h``` flag makes the file size numbers **h**uman-readable, which is useful when we are working with genome-scale files. I also usually use ```tr``` to print the files in **r**everse order according to the **t**ime they were last modified, with most recent files at the bottom.
 
 Do you see your file?  Take a look at what's inside by using
 ``` less README.txt ``` . After you've seen it, type ```q``` to **q**uit this viewing mode. You'll notice that the file's contents, which were previously displayed on the screen, have disappeared. Sometimes there will be part of a file that you want to print in a way that it does not disappear. One way is to use ``` more README.txt ``` which will print one screen at a time. Beyond this first screen, you can hit 'enter' to print one line at a time or 'space' to print another whole page. If you don't want to print the whole document, you can use the same ```q``` to quit the ```more``` command.
